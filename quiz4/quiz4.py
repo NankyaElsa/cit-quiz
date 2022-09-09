@@ -44,13 +44,13 @@ else:
     print("grade is A")
 
 #number5
-# about_me=open("knowme.txt", "w")
-# about_me.write["Elsa\n+256-757291160\n354\nelsakayigwa@gmail.com"]
-# about_me.close()
+about_me=open("knowme.txt", "w")
+about_me.write["Elsa\n+256-757291160\n354\nelsakayigwa@gmail.com"]
+about_me.close()
 
-# about_me=open("knowme.txt", "r")
-# print(about_me.readline()[-1])
-# about_me.close()
+about_me=open("knowme.txt", "r")
+print(about_me.readline()[-1])
+about_me.close()
 
 #number7
 def show_stars(rows):
