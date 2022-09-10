@@ -75,19 +75,19 @@ def check_speed(speed):
 
 
 
-# #number7
-# def show_stars(rows):
-#     t=rows-1
-#     for i in range(0, rows):
-#         for j in range(0,t):
-#             print(end= " ")
-#         t-=1
-#         for j in range (0, i+1):
-#             print("*", end=' ')
-#         print("\n")
+#number7
+def show_stars(rows):
+    t=rows-1
+    for i in range(0, rows):
+        for j in range(0,t):
+            print(end= " ")
+        t-=1
+        for j in range (0, i+1):
+            print("*", end=' ')
+        print("\n")
 
-# rows=int(input())
-# show_stars(5)
+rows=int(input())
+show_stars(5)
 
 #number8
 start_value=int(2000)
