@@ -7,7 +7,7 @@ my_array=[
 ]
 print(my_array[1][1])
 
-#number2
+# #number2
 score=[47,26,69,90,75,34]
 score.sort()
 print(score)
@@ -15,7 +15,7 @@ my_friends=["maria","tonny","arianah","bashir","travor"]
 my_friends.sort()
 print(my_friends)
 
-#number3
+# #number3
 import numpy as np
 my_array=[
     [1,2,3],
@@ -26,7 +26,7 @@ my_array=[
 print(np.min(my_array))
 print(np.max(my_array))
 
-#number4
+# #number4
 sub_mark_counter=1
 total_marks=0
 while sub_mark_counter<=5:
@@ -67,11 +67,51 @@ rows=int(input())
 show_stars(5)
 
 #number8
-
-
+start_value=int(29)
+end_value=int(36)
+counter=int(29)
+while counter <= 3200:
+    if counter % 7 == 0 and counter % 5 == 0:
+        print(counter)
+        counter +=1
+print("none")
     
-        
+#number9
+numbers=input("Enter comma-separated numbers")
+list=numbers.split(",")
+tuple=tuple(list)
+print(list)
+print(tuple)
+
+#number10
+from math import sqrt
+def calculate(C,D,H):
+    D=input("enter a comma-seperated sequence of numbers")
+    list=[int(item) for item in D.split(",")]
+    print(list)
+    return (2*2*D)/4
+result=(calculate(2,"D",4))
+Q=sqrt(result)
+print(result)
+print(Q)
+
+#number11
+try:
+    def division(a,b):
+        return(a/b)
+    result=division(5,0)
+    print(result)
+except:
+    print("zero division error")
+
+#number12
+car_color_brand=[["blue","white","black"],["ranger","ford","vitz"]]
+car_color=car_color_brand[0][1]
+car_brand=car_color_brand[1][1]
+print("The " + car_color + " car is a " + car_brand)
     
+#number13
+
 
     
   
