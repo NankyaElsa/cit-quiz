@@ -14,6 +14,9 @@ print(score)
 my_friends=["maria","tonny","arianah","bashir","travor"]
 my_friends.sort()
 print(my_friends)
+score2=[47,26,69,90,75,34]
+score2.sort(reverse=True)
+print(score2)
 
 #number3
 import numpy as np
@@ -44,31 +47,51 @@ else:
     print("grade is A")
 
 #number5
-about_me=open("knowme.txt", "w")
-about_me.write["Elsa\n+256-757291160\n354\nelsakayigwa@gmail.com"]
-about_me.close()
-
 about_me=open("knowme.txt", "r")
-print(about_me.readline()[-1])
+read=about_me.readlines()
+for line in read:
+    if "@" in line:
+         print(line)
 about_me.close()
 
-#number7
-def show_stars(rows):
-    t=rows-1
-    for i in range(0, rows):
-        for j in range(0,t):
-            print(end= " ")
-        t-=1
-        for j in range (0, i+1):
-            print("*", end=' ')
-        print("\n")
+#number6
+def check_speed(speed):
+    if speed<70:
+        print("ok")
+    
+    speed_limit=70
+    total_km=0
+    while speed_limit>70:
+        km=float(input("enter number of km above speed limit"))
+        demerit_point=0
+        if km>=5:
+            print("you have a demerit point")
+            demerit_point +=1
+        print("you are below speed limit")
+    print(demerit_point)
+    if demerit_point>11:
+        print("licence cancelled")
 
-rows=int(input())
-show_stars(5)
+
+
+
+# #number7
+# def show_stars(rows):
+#     t=rows-1
+#     for i in range(0, rows):
+#         for j in range(0,t):
+#             print(end= " ")
+#         t-=1
+#         for j in range (0, i+1):
+#             print("*", end=' ')
+#         print("\n")
+
+# rows=int(input())
+# show_stars(5)
 
 #number8
-start_value=int(29)
-end_value=int(36)
+start_value=int(2000)
+end_value=int(3200)
 counter=int(29)
 while counter <= 3200:
     if counter % 7 == 0 and counter % 5 == 0:

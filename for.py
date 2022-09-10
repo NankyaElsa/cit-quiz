@@ -20,3 +20,10 @@ for row in number_grid:
     #print(row)
     for col in row:
         print(col)
+
+#creating an exponential function
+#def raise_a_power(base_num, power):
+    #result=1
+    #for index in range(power):
+        #result=base_num*power
+#print("result")
