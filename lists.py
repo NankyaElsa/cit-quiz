@@ -2,13 +2,13 @@
 #lists can be mae up of both numbers and strings
 
 #fruits=["mango","orange", "quava", "lemon", "grapes"]
-marks=[40, 82, 47, 89,59]
-index=0
-total=0
-while index < len(marks):
-    total=total+marks[index]
-    index +=1
-print(total)
+# marks=[40, 82, 47, 89,59]
+# index=0
+# total=0
+# while index < len(marks):
+#     total=total+marks[index]
+#     index +=1
+# print(total)
 
 #adding the two lists together into one string
 #fruits.extend(marks)
@@ -32,3 +32,12 @@ print(total)
 # print(fruits)
 # fruits[4]="banana"
 # print(fruits)
+# list=[x for x in range(2000,3201) if x%7==0 and x%5!=0 ]
+# print(list)
+from math import sqrt
+D=input("enter a comma-seperated sequence of numbers")
+list=[int(item) for item in D.split(",")]
+for i in range(len(list)):
+    Q=2*50*i
+    p=Q/30
+    print(p)

@@ -7,7 +7,7 @@
 #print("!!!HAPPY NEW YEAR!!!")
 
 #guessing game
-from time import monotonic
+#from time import monotonic
 
 
 #hint="I am beautiful\nMost of my kind are blue and grey\nI live in the ocean and I am friendly to people "
@@ -21,3 +21,16 @@ from time import monotonic
        # user_guess=input("enter  your guess,if you dare")
    # print("sorry you are out of chances")
 #print("ahhh!!! you got me")
+# start_value=2000
+# end_value=3200
+# counter=2000
+# while counter <= 3200:
+#     if counter % 7 == 0 and counter % 5 != 0:
+#         print(counter)
+# counter +=1
+
+for i in range(2000,3201):
+    if i % 7 == 0 and i % 5 != 0:
+        list=print(i)
+        print(list)
+        
